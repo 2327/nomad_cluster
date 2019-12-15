@@ -1,0 +1,21 @@
+{
+    "datacenter": "dc1",
+    "data_dir": "/opt/consul",
+    "log_level": "DEBUG",
+    "node_name": "nm1",
+    "server": false,
+    "encrypt": "4Fe05qyddR0dmE9ojWe/+6C+UWV8SWDZBgVJtVN7DlA=",
+    "domain": "2327.ru",
+    "addresses": {
+      "dns": "127.0.0.1",
+      "https": "127.0.0.1",
+      "grpc": "127.0.0.1",
+      "http": "127.0.0.1"
+    },
+    "bind_addr": "192.168.88.27",
+    "start_join": ["192.168.88.26"],
+    "ports": {
+      "dns": 53
+     }
+}
+

@@ -1,0 +1,17 @@
+{
+        "bootstrap": true,
+        "server": true,
+        "datacenter": "dc1",
+        "data_dir": "/var/consul",
+        "encrypt": "4Fe05qyddR0dmE9ojWe/+6C+UWV8SWDZBgVJtVN7DlA=",
+        "log_level": "INFO",
+        "enable_syslog": true,
+        "bind_addr": "192.168.88.26",
+        "addresses": {
+          "dns": "127.0.0.1",
+          "https": "127.0.0.1",
+          "grpc": "127.0.0.1",
+          "http": "0.0.0.0"
+        }
+}
+
